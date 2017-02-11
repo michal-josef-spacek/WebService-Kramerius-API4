@@ -1,8 +1,14 @@
 TODO
 ====
-1. Implementovat API4.
+2. Implementovat search api z
    https://github.com/ceskaexpedice/kramerius/wiki/ClientAPIDEV
-2.
+3. Implementovat api pro virtualni sbirky z 
+   https://github.com/ceskaexpedice/kramerius/wiki/ClientAPIDEV
+4. Testy pro API skrz Test::LWP::Agent.
+5.
 
 Applied
 =======
+1. Implementovat API4.
+   https://github.com/ceskaexpedice/kramerius/wiki/ClientAPIDEV
+OK
