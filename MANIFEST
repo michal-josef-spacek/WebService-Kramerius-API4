@@ -23,7 +23,11 @@ MANIFEST			This list of files
 META.yml
 README
 SIGNATURE
+t/WebService-Kramerius-API4-Struct/01-use.t
+t/WebService-Kramerius-API4-Struct/02-version.t
 t/WebService-Kramerius-API4/01-use.t
 t/WebService-Kramerius-API4/02-version.t
+xt/WebService-Kramerius-API4-Struct/01-pod_coverage.t
+xt/WebService-Kramerius-API4-Struct/02-pod.t
 xt/WebService-Kramerius-API4/01-pod_coverage.t
 xt/WebService-Kramerius-API4/02-pod.t
