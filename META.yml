@@ -34,4 +34,4 @@ resources:
   homepage: https://github.com/tupinek/WebService-Kramerius-API4
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/WebService-Kramerius-API4
-version: '0.01'
+version: '0.02'
