@@ -39,13 +39,6 @@ __END__
 
 WebService::Kramerius::API4::Struct - Class to Kramerius v4+ API, which returns Perl structures instead raw data.
 
-=head1 DESCRIPTION
-
- Instead returning raw data this class returns Perl structures for these content-types:
- - application/json - Decode JSON via JSON->decode() to Perl structure.
- - application/xml - Decode XML via XML::Simple->XMLin() to Perl structure.
- - text/xml - Decode XML via XML::Simple->XMLin() to Perl structure.
-
 =head1 SYNOPSIS
 
  use WebService::Kramerius::API4;
@@ -59,6 +52,13 @@ WebService::Kramerius::API4::Struct - Class to Kramerius v4+ API, which returns 
  my $item_preview_image = get_item_preview($item_id);
  my $thumb_image = get_item_thumb($item_id);
  my $foxml_xml_hr = get_item_foxml($item_id);
+
+=head1 DESCRIPTION
+
+ Instead returning raw data this class returns Perl structures for these content-types:
+ - application/json - Decode JSON via JSON->decode() to Perl structure.
+ - application/xml - Decode XML via XML::Simple->XMLin() to Perl structure.
+ - text/xml - Decode XML via XML::Simple->XMLin() to Perl structure.
 
 =head1 METHODS
 
