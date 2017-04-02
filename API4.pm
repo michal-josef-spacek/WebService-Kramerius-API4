@@ -67,7 +67,7 @@ sub get_item_streams_one {
 	my ($self, $item_id, $stream_id) = @_;
 
 	# XXX Hack for bad content type for alto.
-	if ($stream_id eq 'alto') {
+	if ($stream_id eq 'alto' || $stream_id eq 'ALTO') {
 		$self->{'_force_content_type'} = 'text/xml';
 	}
 
