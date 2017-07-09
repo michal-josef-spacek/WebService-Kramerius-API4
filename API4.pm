@@ -136,15 +136,15 @@ WebService::Kramerius::API4 - Class to Kramerius v4+ API.
 
  use WebService::Kramerius::API4;
  my $obj = WebService::Kramerius::API4->new(%params);
- my $item_json = get_item($item_id)
- my $item_children_json = get_item_children($item_id);
- my $item_siblings_json = get_item_siblings($item_id);
- my $item_streams_json = get_item_streams($item_id);
- my $item_stream = get_item_streams_one($item_id, $stream_id);
- my $item_image = get_item_image($item_id);
- my $item_preview_image = get_item_preview($item_id);
- my $thumb_image = get_item_thumb($item_id);
- my $foxml_xml = get_item_foxml($item_id);
+ my $item_json = $obj->get_item($item_id)
+ my $item_children_json = $obj->get_item_children($item_id);
+ my $item_siblings_json = $obj->get_item_siblings($item_id);
+ my $item_streams_json = $obj->get_item_streams($item_id);
+ my $item_stream = $obj->get_item_streams_one($item_id, $stream_id);
+ my $item_image = $obj->get_item_image($item_id);
+ my $item_preview_image = $obj->get_item_preview($item_id);
+ my $thumb_image = $obj->get_item_thumb($item_id);
+ my $foxml_xml = $obj->get_item_foxml($item_id);
 
 =head1 METHODS
 
