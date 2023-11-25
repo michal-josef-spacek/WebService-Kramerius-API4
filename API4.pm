@@ -451,7 +451,7 @@ Class to Kramerius v4+ API, which returns Perl structures instead raw data.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/WebService-Kramerius-API4>
+L<https://github.com/michal-josef-spacek/WebService-Kramerius-API4>
 
 =head1 AUTHOR
 

@@ -25,8 +25,8 @@ requires 'XML::Simple' => 0;
 requires 'perl' => '5.8.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=WebService-Kramerius-API4';
-resources 'homepage' => 'https://github.com/tupinek/WebService-Kramerius-API4';
-resources 'repository' => 'git://github.com/tupinek/WebService-Kramerius-API4';
+resources 'homepage' => 'https://github.com/michal-josef-spacek/WebService-Kramerius-API4';
+resources 'repository' => 'git://github.com/michal-josef-spacek/WebService-Kramerius-API4';
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;

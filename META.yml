@@ -31,7 +31,7 @@ requires:
   perl: 5.8.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=WebService-Kramerius-API4
-  homepage: https://github.com/tupinek/WebService-Kramerius-API4
+  homepage: https://github.com/michal-josef-spacek/WebService-Kramerius-API4
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/WebService-Kramerius-API4
+  repository: git://github.com/michal-josef-spacek/WebService-Kramerius-API4
 version: '0.02'
