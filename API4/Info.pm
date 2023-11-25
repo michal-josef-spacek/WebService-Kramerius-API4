@@ -118,16 +118,6 @@ Returns string with JSON.
 
 L<WebService::Kramerius::API4::Base>.
 
-=head1 SEE ALSO
-
-=over
-
-=item L<WebService::Kramerius::API4::Struct>
-
-Class to Kramerius v4+ API, which returns Perl structures instead raw data.
-
-=back
-
 =head1 REPOSITORY
 
 L<https://github.com/michal-josef-spacek/WebService-Kramerius-API4>
