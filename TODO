@@ -5,7 +5,10 @@ TODO
 3. Implementovat api pro virtualni sbirky z 
    https://github.com/ceskaexpedice/kramerius/wiki/ClientAPIDEV
 4. Testy pro API skrz Test::LWP::Agent.
-5.
+5. Implementovat VC (Virtual Collection) API
+6. Implementovat Feed API.
+7. Implementovat PDF API.
+8.
 
 Applied
 =======
