@@ -108,9 +108,9 @@ Returns string with JSON.
          'library_url' => $library_url,
  );
 
- my $item_json = $obj->rights;
+ my $rights_json = $obj->rights;
 
- print $item_json."\n";
+ print $rights_json."\n";
 
  # Output for 'http://kramerius.mzk.cz/', pretty print.
  # {

@@ -16,9 +16,9 @@ my $obj = WebService::Kramerius::API4::Info->new(
         'library_url' => $library_url,
 );
 
-my $item_json = $obj->info($lang);
+my $info_json = $obj->info($lang);
 
-print $item_json."\n";
+print $info_json."\n";
 
 # Output for 'http://kramerius.mzk.cz/' and 'cs', pretty print.
 # {
