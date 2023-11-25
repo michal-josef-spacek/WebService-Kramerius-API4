@@ -5,7 +5,7 @@ use warnings;
 
 use Class::Utils qw(set_params);
 use Error::Pure qw(err);
-use List::MoreUtils qw(none);
+use List::Util 1.33 qw(none);
 use LWP::UserAgent;
 
 our $VERSION = 0.02;

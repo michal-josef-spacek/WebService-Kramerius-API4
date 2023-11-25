@@ -8,6 +8,7 @@
  - Obsolete WebService::Kramerius::API4 API.
  - Remove WebService::Kramerius::API4::Struct API.
  - Rename example files to better names.
+ - Rewrite to List::Util.
  - Update Module::Install to 1.21 version.
  - Update author github username.
  - Update copyright years.

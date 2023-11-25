@@ -21,6 +21,7 @@ requires 'Class::Utils' => 0.02;
 requires 'Error::Pure' => 0.24;
 requires 'JSON' => 0;
 requires 'LWP::UserAgent' => 0;
+requires 'List::Util' => 1.33;
 requires 'XML::Simple' => 0;
 requires 'perl' => '5.8.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.

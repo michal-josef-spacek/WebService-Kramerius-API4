@@ -27,6 +27,7 @@ requires:
   Error::Pure: 0.24
   JSON: 0
   LWP::UserAgent: 0
+  List::Util: 1.33
   XML::Simple: 0
   perl: 5.8.0
 resources:
