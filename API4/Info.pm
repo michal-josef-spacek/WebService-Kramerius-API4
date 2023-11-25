@@ -45,8 +45,6 @@ WebService::Kramerius::API4::Info - Class to info endpoint in Kramerius v4+ API.
 
 Constructor.
 
-Returns instance of object.
-
 =over 8
 
 =item * C<library_url>
@@ -65,6 +63,8 @@ Key is content-type and value is subroutine, which converts content to what do y
 Default value is blank hash array.
 
 =back
+
+Returns instance of object.
 
 =head2 C<info>
 
