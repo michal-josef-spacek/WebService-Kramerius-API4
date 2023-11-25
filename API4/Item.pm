@@ -117,15 +117,19 @@ Returns instance of object.
 
 =item * C<library_url>
 
- Library URL.
- This parameter is required.
- Default value is undef.
+Library URL.
+
+This parameter is required.
+
+Default value is undef.
 
 =item * C<output_dispatch>
 
- Output dispatch hash structure.
- Key is content-type and value is subroutine, which converts content to what do you want.
- Default value is blank hash array.
+Output dispatch hash structure.
+
+Key is content-type and value is subroutine, which converts content to what do you want.
+
+Default value is blank hash array.
 
 =back
 
