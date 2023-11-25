@@ -5,7 +5,7 @@
  - Fix description section in doc.
  - Fix Makefile.PL fails with no '.' in @INC.
  - Fix WebService::Kramerius::API4 doc.
- - Update Module::Install.
+ - Update Module::Install to 1.21 version.
  - Update copyright year.
 
 0.01 2017-02-12T21:48:04+01:00
