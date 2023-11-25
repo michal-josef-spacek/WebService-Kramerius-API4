@@ -86,7 +86,7 @@ __END__
 
 =head1 NAME
 
-WebService::Kramerius::API4::Item - Class to Kramerius v4+ API.
+WebService::Kramerius::API4::Item - Class to item endpoint in Kramerius v4+ API.
 
 =head1 SYNOPSIS
 
