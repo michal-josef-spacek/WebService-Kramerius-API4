@@ -54,6 +54,9 @@ sub _construct_opts {
 
 	my $opts = '';
 	foreach my $key (keys %{$opts_hr}) {
+		if ($opts) {
+			$opts .= '&';
+		}
 		my $ref = ref $opts_hr->{$key};
 		if ($ref eq 'ARRAY') {
 			$opts .= $key.'='.(join ',', @{$opts_hr->{$key}});
