@@ -6,6 +6,7 @@
  - Fix Makefile.PL fails with no '.' in @INC.
  - Fix WebService::Kramerius::API4 doc.
  - Implement much better structured API classes.
+ - Obsolete WebService::Kramerius::API4 API.
  - Update Module::Install to 1.21 version.
  - Update author github username.
  - Update copyright years.
