@@ -246,6 +246,8 @@ Otherwise returns value from output dispatch.
 
 =head1 EXAMPLE1
 
+=for comment filename=get_item.pl
+
  use strict;
  use warnings;
 
@@ -267,10 +269,59 @@ Otherwise returns value from output dispatch.
 
  print $item_json."\n";
 
- # Output for 'http://kramerius.mzk.cz/' and '314994e0-490a-11de-ad37-000d606f5dc6'
- # {"datanode":true,"context":[[{"pid":"uuid:5a2dd690-54b9-11de-8bcd-000d606f5dc6","model":"periodical"},{"pid":"uuid:303c91b0-490a-11de-921d-000d606f5dc6","model":"periodicalvolume"},{"pid":"uuid:bf1d5df0-49d8-11de-8cb4-000d606f5dc6","model":"periodicalitem"},{"pid":"uuid:314994e0-490a-11de-ad37-000d606f5dc6","model":"page"}]],"pid":"uuid:314994e0-490a-11de-ad37-000d606f5dc6","model":"page","handle":{"href":"http://kramerius.mzk.cz/search/handle/uuid:314994e0-490a-11de-ad37-000d606f5dc6"},"zoom":{"type":"zoomify","url":"http://kramerius.mzk.cz/search/zoomify/uuid:314994e0-490a-11de-ad37-000d606f5dc6"},"details":{"type":"TitlePage","pagenumber":"[1] \n                        "},"title":"[1]","iiif":"http://kramerius.mzk.cz/search/iiif/uuid:314994e0-490a-11de-ad37-000d606f5dc6","root_title":"Davidova houpačka","root_pid":"uuid:5a2dd690-54b9-11de-8bcd-000d606f5dc6","policy":"public"}
+ # Output for 'http://kramerius.mzk.cz/' and '314994e0-490a-11de-ad37-000d606f5dc6', pretty print
+ # {
+ #   "dnnt-labels": [
+ #     "dnnto"
+ #   ],
+ #   "datanode": true,
+ #   "pid": "uuid:314994e0-490a-11de-ad37-000d606f5dc6",
+ #   "handle": {
+ #     "href": "https://kramerius.mzk.cz/search/handle/uuid:314994e0-490a-11de-ad37-000d606f5dc6"
+ #   },
+ #   "zoom": {
+ #     "type": "zoomify",
+ #     "url": "https://kramerius.mzk.cz/search/zoomify/uuid:314994e0-490a-11de-ad37-000d606f5dc6"
+ #   },
+ #   "title": "[1]",
+ #   "iiif": "https://kramerius.mzk.cz/search/iiif/uuid:314994e0-490a-11de-ad37-000d606f5dc6",
+ #   "collections": [
+ #     "vc:7f5e94b5-7b6a-4a48-acaa-059096e4f1ae"
+ #   ],
+ #   "context": [
+ #     [
+ #       {
+ #         "pid": "uuid:5a2dd690-54b9-11de-8bcd-000d606f5dc6",
+ #         "model": "periodical"
+ #       },
+ #       {
+ #         "pid": "uuid:303c91b0-490a-11de-921d-000d606f5dc6",
+ #         "model": "periodicalvolume"
+ #       },
+ #       {
+ #         "pid": "uuid:bf1d5df0-49d8-11de-8cb4-000d606f5dc6",
+ #         "model": "periodicalitem"
+ #       },
+ #       {
+ #         "pid": "uuid:314994e0-490a-11de-ad37-000d606f5dc6",
+ #         "model": "page"
+ #       }
+ #     ]
+ #   ],
+ #   "model": "page",
+ #   "details": {
+ #     "type": "TitlePage",
+ #     "pagenumber": "[1] \n                        "
+ #   },
+ #   "root_title": "Davidova houpačka",
+ #   "root_pid": "uuid:5a2dd690-54b9-11de-8bcd-000d606f5dc6",
+ #   "policy": "private",
+ #   "dnnt": true
+ # }
 
 =head1 EXAMPLE2
+
+=for comment filename=get_item_perl_struct_dump.pl
 
  use strict;
  use warnings;
@@ -351,6 +402,8 @@ Otherwise returns value from output dispatch.
  # }
 
 =head1 EXAMPLE3
+
+=for comment filename=get_item_streams_perl_struct_dump.pl
 
  use strict;
  use warnings;

@@ -5,7 +5,7 @@ use warnings;
 
 use Data::Printer;
 use JSON;
-use WebService::Kramerius::API4;
+use WebService::Kramerius::API4::Item;
 
 if (@ARGV < 2) {
         print STDERR "Usage: $0 library_url work_id\n";
@@ -14,7 +14,7 @@ if (@ARGV < 2) {
 my $library_url = $ARGV[0];
 my $work_id = $ARGV[1];
 
-my $obj = WebService::Kramerius::API4->new(
+my $obj = WebService::Kramerius::API4::Item->new(
         'library_url' => $library_url,
         'output_dispatch' => {
                 'application/json' => sub {
