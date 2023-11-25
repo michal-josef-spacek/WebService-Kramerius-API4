@@ -1,13 +1,6 @@
 TODO
 ====
-2. Implementovat search api z
-   https://github.com/ceskaexpedice/kramerius/wiki/ClientAPIDEV
-3. Implementovat api pro virtualni sbirky z 
-   https://github.com/ceskaexpedice/kramerius/wiki/ClientAPIDEV
 4. Testy pro API skrz Test::LWP::Agent.
-5. Implementovat VC (Virtual Collection) API
-6. Implementovat Feed API.
-7. Implementovat PDF API.
 8.
 
 Applied
@@ -15,3 +8,20 @@ Applied
 1. Implementovat API4.
    https://github.com/ceskaexpedice/kramerius/wiki/ClientAPIDEV
 OK
+
+2. Implementovat search api z
+   https://github.com/ceskaexpedice/kramerius/wiki/ClientAPIDEV
+OK [20231125] skim
+
+3. Implementovat api pro virtualni sbirky z 
+   https://github.com/ceskaexpedice/kramerius/wiki/ClientAPIDEV
+OK [20231125] skim
+
+5. Implementovat VC (Virtual Collection) API
+OK [20231125] skim
+
+6. Implementovat Feed API.
+OK [20231125] skim
+
+7. Implementovat PDF API.
+OK [20231125] skim
