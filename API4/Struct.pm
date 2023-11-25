@@ -12,18 +12,22 @@ our $VERSION = 0.02;
 # Constructor.
 sub new {
 	my ($class, %params) = @_;
+
 	my $xml_callback = sub {
 		my $xml = shift;
+
 		return XML::Simple->new->XMLin($xml);
 	};
 	$params{'output_dispatch'} = {
 		'application/json' => sub {
 			my $json = shift;
+
 			return JSON->new->decode($json);
 		},
 		'application/xml' => $xml_callback,
 		'text/xml' => $xml_callback,
 	};
+
 	return $class->SUPER::new(%params);
 }
 
