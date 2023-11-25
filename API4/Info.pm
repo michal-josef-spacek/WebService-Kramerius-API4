@@ -72,6 +72,8 @@ Returns instance of object.
 
 Get info about Kramerius system.
 
+TODO C<$lang>
+
 Returns string with JSON.
 
 =head1 ERRORS
