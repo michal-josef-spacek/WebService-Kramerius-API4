@@ -7,7 +7,6 @@ API4/Item.pm
 API4/PDF.pm
 API4/Rights.pm
 API4/Search.pm
-API4/Struct.pm
 API4/User.pm
 API4/VC.pm
 Changes
@@ -49,8 +48,6 @@ t/WebService-Kramerius-API4-Rights/01-use.t
 t/WebService-Kramerius-API4-Rights/02-version.t
 t/WebService-Kramerius-API4-Search/01-use.t
 t/WebService-Kramerius-API4-Search/02-version.t
-t/WebService-Kramerius-API4-Struct/01-use.t
-t/WebService-Kramerius-API4-Struct/02-version.t
 t/WebService-Kramerius-API4-User/01-use.t
 t/WebService-Kramerius-API4-User/02-version.t
 t/WebService-Kramerius-API4-VC/01-use.t
@@ -73,8 +70,6 @@ xt/WebService-Kramerius-API4-Rights/01-pod_coverage.t
 xt/WebService-Kramerius-API4-Rights/02-pod.t
 xt/WebService-Kramerius-API4-Search/01-pod_coverage.t
 xt/WebService-Kramerius-API4-Search/02-pod.t
-xt/WebService-Kramerius-API4-Struct/01-pod_coverage.t
-xt/WebService-Kramerius-API4-Struct/02-pod.t
 xt/WebService-Kramerius-API4-User/01-pod_coverage.t
 xt/WebService-Kramerius-API4-User/02-pod.t
 xt/WebService-Kramerius-API4-VC/01-pod_coverage.t

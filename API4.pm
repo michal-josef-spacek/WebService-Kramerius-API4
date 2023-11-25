@@ -53,10 +53,6 @@ TODO
 
 TODO
 
-=item L<WebService::Kramerius::API4::Struct>
-
-Class to Kramerius v4+ API, which returns Perl structures instead raw data.
-
 =item L<WebService::Kramerius::API4::User>
 
 TODO

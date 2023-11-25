@@ -26,10 +26,6 @@ SEE ALSO
     WebService::Kramerius::API4::Search
         TODO
 
-    WebService::Kramerius::API4::Struct
-        Class to Kramerius v4+ API, which returns Perl structures instead
-        raw data.
-
     WebService::Kramerius::API4::User
         TODO
 

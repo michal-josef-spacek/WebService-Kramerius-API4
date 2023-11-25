@@ -7,6 +7,7 @@
  - Fix WebService::Kramerius::API4 doc.
  - Implement much better structured API classes.
  - Obsolete WebService::Kramerius::API4 API.
+ - Remove WebService::Kramerius::API4::Struct API.
  - Update Module::Install to 1.21 version.
  - Update author github username.
  - Update copyright years.
