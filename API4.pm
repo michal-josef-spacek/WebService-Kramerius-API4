@@ -31,7 +31,7 @@ TODO
 
 =item L<WebService::Kramerius::API4::Feed>
 
-TODO
+Class to feed endpoint in Kramerius v4+ API.
 
 =item L<WebService::Kramerius::API4::Info>
 
@@ -39,7 +39,7 @@ Class to info endpoint in Kramerius v4+ API.
 
 =item L<WebService::Kramerius::API4::Item>
 
-TODO
+Class to item endpoint in Kramerius v4+ API.
 
 =item L<WebService::Kramerius::API4::PDF>
 
@@ -47,7 +47,7 @@ TODO
 
 =item L<WebService::Kramerius::API4::Rights>
 
-TODO
+Class to rights endpoint in Kramerius v4+ API.
 
 =item L<WebService::Kramerius::API4::Search>
 
@@ -55,7 +55,7 @@ TODO
 
 =item L<WebService::Kramerius::API4::User>
 
-TODO
+Class to user endpoint in Kramerius v4+ API.
 
 =item L<WebService::Kramerius::API4::VC>
 
