@@ -5,6 +5,7 @@
  - Fix description section in doc.
  - Fix Makefile.PL fails with no '.' in @INC.
  - Implement much better structured API classes.
+ - Move bugtracker to github.
  - Obsolete WebService::Kramerius::API4 API.
  - Remove WebService::Kramerius::API4::Struct API.
  - Rename example files to better names.
