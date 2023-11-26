@@ -5,7 +5,7 @@ use warnings;
 
 use base qw(WebService::Kramerius::API4::Base);
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 # Example: https://kramerius.mzk.cz/search/api/v5.0/search?q=(fedora.model:monograph%20OR%20fedora.model:periodical%20OR%20fedora.model:soundrecording%20OR%20fedora.model:map%20OR%20fedora.model:graphic%20OR%20fedora.model:sheetmusic%20OR%20fedora.model:archive%20OR%20fedora.model:manuscript)&facet=true&facet.field=fedora.model&facet.mincount=1&facet.sort=count&facet.limit=100&facet.offset=0&rows=0&json.facet=%7Bx:%22unique(fedora.model)%22%7D
 sub search {

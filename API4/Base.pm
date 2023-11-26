@@ -8,7 +8,7 @@ use Error::Pure qw(err);
 use List::Util 1.33 qw(none);
 use LWP::UserAgent;
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 # Constructor.
 sub new {

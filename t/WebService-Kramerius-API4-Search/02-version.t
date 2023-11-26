@@ -6,4 +6,4 @@ use Test::NoWarnings;
 use WebService::Kramerius::API4::Search;
 
 # Test.
-is($WebService::Kramerius::API4::Search::VERSION, 0.02, 'Version.');
+is($WebService::Kramerius::API4::Search::VERSION, 0.03, 'Version.');

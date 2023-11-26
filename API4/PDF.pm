@@ -5,7 +5,7 @@ use warnings;
 
 use base qw(WebService::Kramerius::API4::Base);
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 sub parent {
 	my ($self, $parent_uuid, $number_of_items) = @_;

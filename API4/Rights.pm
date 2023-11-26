@@ -5,7 +5,7 @@ use warnings;
 
 use base qw(WebService::Kramerius::API4::Base);
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 sub rights {
 	my ($self, $opts_hr) = @_;
@@ -173,6 +173,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.02
+0.03
 
 =cut
