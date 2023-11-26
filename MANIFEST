@@ -13,6 +13,9 @@ Changes
 examples/get_item.pl
 examples/get_item_perl_struct_dump.pl
 examples/get_item_streams_perl_struct_dump.pl
+examples/kramerius_feed_custom.pl
+examples/kramerius_feed_mostdesirable.pl
+examples/kramerius_feed_newest.pl
 examples/kramerius_info.pl
 examples/kramerius_rights.pl
 examples/kramerius_user_profile.pl
