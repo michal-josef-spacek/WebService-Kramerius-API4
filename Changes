@@ -1,4 +1,4 @@
-0.02
+0.02 2023-11-26T14:57:16+01:00
  - Add META.json to MANIFEST file.
  - Add hack for ALTO content type.
  - Add tests for WebService::Kramerius::API4::Struct.
